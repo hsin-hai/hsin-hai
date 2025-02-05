@@ -1,7 +1,20 @@
-.positioned {
+body {
   position: relative;
-  background: yellow;
+  background: #FFF8DC;
   top: 30px;
   left: 30px;
+
+}
+
+h1 {
+  color: #483D8B;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50pt;
+}
+
+a {
+  color: #483D8B;
+  font-size: 15pt;
 
 }
