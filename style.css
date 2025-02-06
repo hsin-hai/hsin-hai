@@ -13,8 +13,26 @@ h1 {
   font-size: 50pt;
 }
 
-a {
+.button-console {
+  border: 0cap;
+  background: local;
   color: #483D8B;
   font-size: 15pt;
 
 }
+
+.button-image {
+  position: absolute;
+  transition: all 0.5s, top 0s, left 0s ease-in-out; /* drop back down smoothly */
+  background: url(childish.mov);
+  background-size:cover;
+  display: inline-block;
+  height: 500px;
+  vertical-align: top;
+  width: 45%;
+}
+
+
+.button-image:hover {
+  filter: drop-shadow(5px 5px 5px #5A514A); /* puts shadow behind image instead of image box */
+  transition: all 0.5s ease-in-out; /* smooth pick up */
